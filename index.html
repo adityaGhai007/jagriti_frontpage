@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="stylesa.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <linkhref="https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Dancing+Script&family=Gloock&family=Open+Sans:ital,wght@1,700&family=Tilt+Neon&family=Tilt+Prism&display=swap">
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+
+    <title>जाग्रति </title>
+  <style>
+    #icon111{
+      opacity: 1;
+      color: yellow;
+    }
+    video {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      -o-object-fit: cover;
+      object-fit: cover;
+      -o-object-position: center;
+      object-position: center;
+    }
+
+    header {
+      background: tan;
+      position: fixed;
+      width: 100%;
+      text-align: center;
+      color: white;
+      -webkit-transition: .4s;
+      transition: .4s;
+      padding: 0.5em;
+    }
+
+    nav a {
+      color: inherit;
+      padding: 0 12px;
+      text-decoration: none;
+    }
+
+    .overlay {
+      min-height: 100vh;
+      display: flex;
+
+      align-items: center;
+      justify-content: center;
+
+
+    }
+
+    .overlay h2 {
+      background: #000 none repeat scroll 0 0;
+      color: tan;
+      font-weight: 600;
+
+      mix-blend-mode: screen;
+      padding: 5px 15px;
+      text-align: center;
+    }
+
+    h2 {
+      font-size: 60px;
+      border: 2px solid white;
+      border-radius: 20px;
+
+
+    }
+
+    button {
+      height: 50px;
+      width: 400px;
+      position: relative;
+      top: 10px;
+      font-size: 20px;
+      opacity: 0.3;
+      border-radius: 20px;
+      margin-right: 80px;
+    }
+
+    button:hover {
+      opacity: 1;
+
+    }
+
+    a {
+      cursor: pointer;
+      text-decoration: none;
+      color: white;
+    }
+
+    #jagriti {
+      animation-name: utthan;
+      animation-duration: 3s;
+      animation-iteration-count: infinite;
+      animation-delay: 2.5s;
+      /* transform: rotateY(360deg); */
+    }
+
+    #jagriti:hover {
+      font-size: 70px;
+    }
+
+    @keyframes utthan {
+      0% {
+        /* transform: rotateZ(0deg); */
+        transform: rotateY(0deg);
+      }
+
+      50% {
+        /* transform: rotateZ(240deg); */
+        transform: rotateY(200deg);
+      }
+
+      100% {
+        transform: rotateY(360deg);
+        /* transform: rotateZ(240deg); */
+      }
+
+      /* animation-delay: 5s; */
+    }
+
+    #click {
+      font-size: 15px;
+    }
+
+    #arrow {
+      border: none;
+      background-color: none;
+
+    }
+
+    #icon11 {
+      font-size: 50px;
+      opacity: 0.5;
+    }
+
+    #icon11:hover {
+
+      font-size: 72px;
+      background: -webkit-linear-gradient(45deg, yellow 40%, deeppink);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-size: 55px;
+      opacity: 1;
+    }
+  </style>
+</head>
+
+<body>
+  <video playsinline autoplay muted loop id="myVideo">
+
+    <source src="video9.mp4" type="video/mp4">
+
+  </video>
+
+  <div class="overlay">
+    <h2 id="jagriti"> <a href="https://shramanpaul.github.io/homepage/" style=" font-family: 'Dancing Script', cursive;">जाग्रति <i id="icon111"
+          class="bi bi-magic"></i></a>
+    </h2>
+
+
+    <h2 id="arrow"> <a href="https://shramanpaul.github.io/homepage/"><i class="bi bi-fast-forward-circle-fill" id="icon11"></i></a>
+
+    </h2>
+
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+<script>
+//   var vid = document.getElementById("myVideo");
+// vid.playbackRate = 0.5;
+</script>
+
+</html>
